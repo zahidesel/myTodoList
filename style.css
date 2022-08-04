@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg, #65f6b7, #fd859f);
+    color: #fff;
+    min-height: 100vh;
+}
+header{
+    font-size: 1.5rem;
+}
+header, form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input, form button, .filter-todo{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+form button{
+    color: #fd859f;
+    cursor: pointer;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    background: #fd859f;
+    color: white;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width: 40%;
+    list-style: none;
+}
+
+.todo{
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+
+}
+.todo li{
+    flex: 1;
+    padding: 10px;
+}
+.trash-btn, .complete-btn{
+
+   border: none;
+   margin: 10px;
+   color: #fd859f;
+   font-weight: 900;
+   background: white;
+   cursor: pointer;
+   font-size: 2rem;
+}
+
+.fa-trash, .fa-check{
+pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+select{
+    color: #fd859f;
+    width: 25rem;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    
+    } 
+/* select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+     appearance: none; 
+    outline: none;
+    border: none;
+} 
+
+.select{
+    margin:1rem;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+select{
+color: #fd859f;
+width: 10rem;
+cursor: pointer;
+padding: 1rem;
+border-radius: 10px;
+font-weight: 700;
+} 
+.select::after{
+    content: "\25BC";
+    position: absolute;
+    background: #fd859f;
+    top: 31.5px;
+    right: 220px;
+    padding: 0.9rem;
+    pointer-events: none;
+    border-radius: 10px;
+} */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
