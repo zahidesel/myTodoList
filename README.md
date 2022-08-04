@@ -1,1 +1,3 @@
 # myTodoList
+
+![](todoList.gif)
