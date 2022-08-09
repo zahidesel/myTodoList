@@ -26,6 +26,7 @@ form input, form button, .filter-todo{
     background: white;
     border-radius: 50px;
     margin-top: 10px;
+    outline: none;
 }
 
 form button{
